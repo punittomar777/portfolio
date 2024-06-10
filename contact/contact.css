@@ -1,0 +1,24 @@
+#main {
+    background-color: darkgreen;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+body {
+    background-image: url('contact.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2 {
+    margin: 75px;
+    color: black;
+    font-style: oblique;
+}
