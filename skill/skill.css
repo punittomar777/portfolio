@@ -1,0 +1,24 @@
+body {
+    background-image: url('skills.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#main {
+    background-color: darkgreen;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+h2 {
+    margin: 75px;
+    color: aliceblue;
+    font-style: oblique;
+}
