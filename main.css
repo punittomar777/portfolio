@@ -6,6 +6,13 @@ body {
 }
 
 #Projects {
+    hover {
+        transform: scale(1.1);
+    }
+
+    margin-left: 75px;
+    margin-right: 20px;
+    cursor: pointer;
     background-color: #04AA6D;
     /* Green */
     border: none;
@@ -17,7 +24,13 @@ body {
     font-size: 16px;
 }
 
+#Projects:hover {
+    transform: scale(1.1);
+}
+
 #About {
+    margin-right: 20px;
+    cursor: pointer;
     background-color: #aa0412;
     /* Green */
     border: none;
@@ -29,7 +42,13 @@ body {
     font-size: 16px;
 }
 
+#About:hover {
+    transform: scale(1.1);
+}
+
 #Contact {
+    margin-right: 20px;
+    cursor: pointer;
     background-color: #aa6204;
     /* Green */
     border: none;
@@ -41,7 +60,13 @@ body {
     font-size: 16px;
 }
 
+#Contact:hover {
+    transform: scale(1.1);
+}
+
 #Skills {
+    cursor: pointer;
+    margin-right: 20px;
     background-color: #3004aa;
     /* Green */
     border: none;
@@ -53,8 +78,18 @@ body {
     font-size: 16px;
 }
 
+#Skills:hover {
+    transform: scale(1.1);
+}
+
 h2 {
     margin: 75px;
     color: aliceblue;
     font-style: oblique;
+}
+
+button {
+    hover {
+        cursor: pointer;
+    }
 }

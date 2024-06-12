@@ -6,6 +6,8 @@ body {
 }
 
 #main {
+    margin-left: 75px;
+    cursor: pointer;
     background-color: darkgreen;
     /* Green */
     border: none;
@@ -15,6 +17,10 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+#main:hover {
+    transform: scale(1.1);
 }
 
 h2 {

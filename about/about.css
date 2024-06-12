@@ -1,4 +1,6 @@
 #main {
+    margin-left: 75px;
+    cursor: pointer;
     background-color: darkgreen;
     /* Green */
     border: none;
@@ -10,15 +12,13 @@
     font-size: 16px;
 }
 
+#main:hover {
+    transform: scale(1.1);
+}
+
 body {
     background-image: url('about.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-h2 {
-    margin: 75px;
-    color: black;
-    font-style: oblique;
 }
